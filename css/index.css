@@ -1,11 +1,36 @@
+/* default style */
+
 @font-face {
     font-family: "Hina Mancho";
     src: url(../font/HinaMincho-Regular.ttf);
 }
 
 * {
+    color: white;
     font-family: "Hina Mancho";
 }
+
+a:visited {
+    color: white;
+}
+
+/* common style */
+
+.hr-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hr-flexbox .small {
+    border: solid 1px black;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+/* page design */
 
 header .logo {
     height: 33px;
@@ -21,18 +46,4 @@ body {
     background-color: black;
     color: white;
     width: 1000px;
-}
-
-.hr-flexbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.hr-flexbox .small {
-    border: solid 1px black;
-    display: flex;
-    height: 200px;
-    width: 200px;
 }
