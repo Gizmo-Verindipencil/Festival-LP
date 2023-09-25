@@ -47,7 +47,8 @@ header h1 {
 }
 
 body {
-    background-color: black;
+    background: rgb(0,144,203);
+    background: linear-gradient(30deg, rgba(0,144,203,1) 0%, rgba(21,16,46,1) 60%, rgba(0,0,0,1) 100%);
     color: white;
     width: 1000px;
 }
