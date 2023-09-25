@@ -7,6 +7,16 @@
     font-family: "Hina Mancho";
 }
 
+header .logo {
+    height: 33px;
+    margin: 0 5px;
+    width: 33px;
+}
+
+header h1 {
+    vertical-align: center;
+}
+
 body {
     background-color: black;
     color: white;
