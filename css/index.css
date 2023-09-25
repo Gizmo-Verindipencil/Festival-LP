@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "Hina Mancho";
+    src: url(../font/HinaMincho-Regular.ttf);
+}
+
+* {
+    font-family: "Hina Mancho";
+}
+
 body {
+    background-color: black;
+    color: white;
     width: 1000px;
 }
 
