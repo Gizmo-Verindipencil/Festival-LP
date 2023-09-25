@@ -1,0 +1,17 @@
+body {
+    width: 1000px;
+}
+
+.hr-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.hr-flexbox .small {
+    border: solid 1px black;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
