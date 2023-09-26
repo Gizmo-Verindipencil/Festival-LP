@@ -39,21 +39,24 @@ hr {
 /* page design */
 
 header .logo-wrapper {
+    background-color: rgba(0, 0, 0, 50%);
     display: flex;
+    padding: 10px;
 }
 
 header .logo {
-    height: 80px;
     margin-right: 20px;
-    width: 80px;
-}
-
-header h1 {
-    vertical-align: center;
+    width: 90px;
 }
 
 body {
     background: linear-gradient(30deg, rgb(0, 144, 203) 0%, rgb(21, 16, 46) 60%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
     color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 70%);
+    margin-top: 20px;
+    padding: 5px;
 }
