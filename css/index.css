@@ -28,6 +28,10 @@ hr {
     justify-content: space-around;
 }
 
+.hr-flexbox a{
+    text-align: center;
+}
+
 .hr-flexbox .small {
     border: solid 1px black;
     display: flex;
