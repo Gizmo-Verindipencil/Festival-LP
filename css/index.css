@@ -24,14 +24,15 @@ hr {
 .hr-flexbox {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
 }
 
 .hr-flexbox .small {
     border: solid 1px black;
     display: flex;
     height: 200px;
+    margin-top: 15px;
     width: 200px;
 }
 
@@ -53,6 +54,6 @@ header h1 {
 
 body {
     background: linear-gradient(30deg, rgb(0, 144, 203) 0%, rgb(21, 16, 46) 60%, rgb(0, 0, 0) 100%);
+    background-attachment: fixed;
     color: white;
-    width: 1000px;
 }
