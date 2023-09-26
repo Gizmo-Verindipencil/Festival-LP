@@ -25,7 +25,15 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
+}
+
+.hr-flexbox *:first-child {
+    margin-left: 10px;
+}
+
+.hr-flexbox * {
+    margin-right: 10px;
 }
 
 .hr-flexbox a{
