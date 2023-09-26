@@ -1,0 +1,74 @@
+/* default style */
+
+@font-face {
+    font-family: "Hina Mancho";
+    src: url(../font/HinaMincho-Regular.ttf);
+}
+
+* {
+    color: white;
+    font-family: "Hina Mancho";
+}
+
+a:visited {
+    color: white;
+}
+
+nav, article {
+    padding-left: 10px;
+}
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* common style */
+
+.hr-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.hr-flexbox * {
+    margin-right: 10px;
+}
+
+.hr-flexbox a{
+    text-align: center;
+}
+
+.hr-flexbox .small {
+    border: solid 1px black;
+    display: flex;
+    height: 200px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+/* page design */
+
+header .logo-wrapper {
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    padding: 10px;
+}
+
+header .logo {
+    margin-right: 20px;
+    width: 90px;
+}
+
+body {
+    background: linear-gradient(30deg, rgb(0, 144, 203) 0%, rgb(21, 16, 46) 60%, rgb(0, 0, 0) 100%);
+    background-attachment: fixed;
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 70%);
+    margin-top: 20px;
+    padding: 5px;
+}
