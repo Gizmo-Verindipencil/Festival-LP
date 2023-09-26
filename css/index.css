@@ -14,6 +14,10 @@ a:visited {
     color: white;
 }
 
+nav, article {
+    padding-left: 10px;
+}
+
 hr {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -26,10 +30,6 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: start;
-}
-
-.hr-flexbox *:first-child {
-    margin-left: 10px;
 }
 
 .hr-flexbox * {
