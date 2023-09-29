@@ -25,6 +25,10 @@ hr {
 
 /* common style */
 
+.notation {
+    color: #ff6666;
+}
+
 .hr-flexbox {
     display: flex;
     flex-direction: row;
