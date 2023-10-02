@@ -1,0 +1,93 @@
+/* default style */
+
+body {
+    background-color: black;
+    overflow-y: hidden;
+}
+
+/* common style */
+
+.center {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bold-border {
+    border: 5px solid black;
+}
+
+/* page design */
+
+.main {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+.background1, .background2, .background3, .background4 {
+    background-image:
+        radial-gradient(at 50% 40%, #fff, transparent 80%),
+        radial-gradient(at 50% -50%, #0df, transparent 80%),
+        radial-gradient(at 100% 0, #bd29d0 0, transparent 30%),
+        radial-gradient(at 100% 100%, #faa, transparent),
+        radial-gradient(at 0 100%, #ff0, transparent);
+    height: 50%;
+    position: absolute;
+    width: 100%;
+}
+
+.background1 {
+    animation: flow1 5s linear infinite;
+}
+
+.background2 {
+    animation: flow2 5s linear infinite;
+}
+
+.background3 {
+    animation: flow3 5s linear infinite;
+}
+
+.background4 {
+    animation: flow4 5s linear infinite;
+}
+
+@keyframes flow1 {
+    0% {
+        transform: translateY(-200%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes flow2 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes flow3 {
+    0% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes flow4 {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(200%);
+    }
+}
