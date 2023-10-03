@@ -45,7 +45,17 @@ body {
 }
 
 .television img {
+    animation: insanity 30s linear infinite;
     border-radius: 4%;
+}
+
+@keyframes insanity {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .antenna {
