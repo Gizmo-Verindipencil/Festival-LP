@@ -69,7 +69,7 @@ body {
     content: "";
     display: block;
     height: 57%;
-    transform: rotate(225deg) translate(25%, -10%);
+    transform: rotate(225deg) translate(22%, 10%);
     width: 120%;
 }
 
