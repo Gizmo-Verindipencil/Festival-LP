@@ -28,7 +28,7 @@ body {
     width: 100%;
 }
 
-.background1, .background2, .background3, .background4 {
+.background1, .background2, .background3 {
     background-image:
         radial-gradient(at 50% 40%, #fff, transparent 80%),
         radial-gradient(at 50% -50%, #0df, transparent 80%),
@@ -52,20 +52,7 @@ body {
     animation: flow3 5s linear infinite;
 }
 
-.background4 {
-    animation: flow4 5s linear infinite;
-}
-
 @keyframes flow1 {
-    0% {
-        transform: translateY(-200%);
-    }
-    100% {
-        transform: translateY(-100%);
-    }
-}
-
-@keyframes flow2 {
     0% {
         transform: translateY(-100%);
     }
@@ -74,7 +61,7 @@ body {
     }
 }
 
-@keyframes flow3 {
+@keyframes flow2 {
     0% {
         transform: translateY(0%);
     }
@@ -83,7 +70,7 @@ body {
     }
 }
 
-@keyframes flow4 {
+@keyframes flow3 {
     0% {
         transform: translateY(100%);
     }
