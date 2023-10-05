@@ -13,6 +13,19 @@ a:visited {
     color: #000;
 }
 
+h2::before {
+    background-color: #b00;
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    margin-right: 0.5rem;
+    width: 1rem;
+}
+
+p {
+    margin-left: 1.5rem;
+}
+
 hr {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -74,4 +87,5 @@ footer {
     color: #fff;
     margin-top: 20px;
     padding: 5px;
+    vertical-align: middle;
 }
