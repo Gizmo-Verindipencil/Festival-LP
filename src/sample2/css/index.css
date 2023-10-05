@@ -45,6 +45,20 @@ hr {
     margin-top: 30px;
 }
 
+/* common style */
+
+.notation {
+    color: #ff6666;
+}
+
+.hr-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
 /* page design */
 
 header .logo-wrapper {
