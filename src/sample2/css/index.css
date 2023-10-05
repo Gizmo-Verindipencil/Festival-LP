@@ -1,12 +1,12 @@
 /* default style */
 
 @font-face {
-    font-family: "Hina Mancho";
-    src: url(../font/HinaMincho-Regular.ttf);
+    font-family: "Yuji Boku";
+    src: url(../font/YujiBoku-Regular.ttf);
 }
 
 * {
-    font-family: "Hina Mancho";
+    font-family: "Yuji Boku";
 }
 
 a:visited {
@@ -25,6 +25,37 @@ header .logo-wrapper {
     color: #fff;
     display: flex;
     padding: 10px;
+}
+
+header .logo-wrapper .festival-name {
+    float: right;
+    margin-left: 10px;
+}
+
+header .logo-wrapper .festival-name div {
+    font-size: 3.5rem;
+    font-weight: bold;
+    float: left;
+}
+
+header .logo-wrapper .festival-name div:nth-child(1) {
+    color: #ffff00;
+}
+
+header .logo-wrapper .festival-name div:nth-child(2) {
+    color: #6fe93f;
+}
+
+header .logo-wrapper .festival-name div:nth-child(3) {
+    color: #45aef5;
+}
+
+header .logo-wrapper .festival-name div:nth-child(4) {
+    color: #f5c3ff;
+}
+
+header .logo-wrapper .festival-name div:nth-child(5) {
+    color: #ffb71b;
 }
 
 header .logo {
