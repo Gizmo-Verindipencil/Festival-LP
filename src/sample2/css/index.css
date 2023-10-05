@@ -22,6 +22,20 @@ h2::before {
     width: 1rem;
 }
 
+b {
+    animation: rumble .1s infinite;
+    display: inline-block;
+}
+
+@keyframes rumble {
+    0% {
+        transform: translate(0, 3px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
 p {
     margin-left: 1.5rem;
 }
