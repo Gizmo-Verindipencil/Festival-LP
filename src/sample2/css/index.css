@@ -22,6 +22,10 @@ h2::before {
     width: 1rem;
 }
 
+h3 {
+    margin-left: 1.5rem;
+}
+
 b {
     animation: rumble .1s infinite;
     display: inline-block;
@@ -57,6 +61,10 @@ hr {
     flex-wrap: wrap;
     justify-content: start;
     padding: 0 1.5rem 0 1.5rem;
+}
+
+.hr-flexbox img {
+    margin: 0 0.3rem;
 }
 
 /* page design */
