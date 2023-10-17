@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: "Soseki";
+    src: url(../font/soseki-font2.ttf);
+}
+
+* {
+    font-family: "Soseki";
+}
+
 /* page design */
 
 header .logo-wrapper {
@@ -7,6 +17,7 @@ header .logo-wrapper {
 .blink-omotenashi {
     display: flex;
     font-size: 2.5rem;
+    line-height: 4rem;
 }
 
 .blink-omotenashi .o,
@@ -14,7 +25,7 @@ header .logo-wrapper {
 .blink-omotenashi .te,
 .blink-omotenashi .na,
 .blink-omotenashi .shi {
-    animation: blink 5s infinite;
+    animation: blink 5s normal;
     font-weight: bold;
     margin: 0 1rem;
 }
@@ -37,12 +48,15 @@ header .logo-wrapper {
 
 @keyframes blink {
     0% {
+        color: #000;
         opacity: 0;
     }
     50% {
+        color: #f00;
         opacity: 0.8;
     }
     100% {
+        color: #000;
         opacity: 0;
     }
 }
