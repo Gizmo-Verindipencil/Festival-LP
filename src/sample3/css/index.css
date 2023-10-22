@@ -66,3 +66,23 @@ header .logo-wrapper {
         opacity: 0;
     }
 }
+
+.portrait {
+    background-image: linear-gradient(80deg, #daffdf, #a5d1a6);
+    border: solid #000 0.01rem;
+    border-radius: 1.5%;
+    float: left;
+    margin: 0 0.3rem;
+    padding: 0.2rem;
+    width: 300px;
+}
+
+.portrait .face {
+    margin: 10px 50px;
+}
+
+.portrait .name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
