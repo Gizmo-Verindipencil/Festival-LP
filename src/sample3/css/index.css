@@ -1,0 +1,88 @@
+/* default style */
+
+@font-face {
+    font-family: "Soseki";
+    src: url(../font/soseki-font2.ttf);
+}
+
+* {
+    font-family: "Soseki";
+}
+
+p {
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+/* page design */
+
+header .logo-wrapper {
+    background-image: linear-gradient(80deg, #daffdf, #a5d1a6);
+}
+
+.blink-omotenashi {
+    display: flex;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.blink-omotenashi .o,
+.blink-omotenashi .mo,
+.blink-omotenashi .te,
+.blink-omotenashi .na,
+.blink-omotenashi .shi {
+    animation: blink 5s normal;
+    font-weight: bold;
+    margin: 0 1rem;
+}
+
+.blink-omotenashi .mo {
+    animation-delay: 1s;
+}
+
+.blink-omotenashi .te {
+    animation-delay: 2s;
+}
+
+.blink-omotenashi .na {
+    animation-delay: 3s;
+}
+
+.blink-omotenashi .shi {
+    animation-delay: 4s;
+}
+
+@keyframes blink {
+    0% {
+        color: #000;
+        opacity: 0;
+    }
+    50% {
+        color: #f00;
+        opacity: 0.8;
+    }
+    100% {
+        color: #000;
+        opacity: 0;
+    }
+}
+
+.portrait {
+    background-image: linear-gradient(80deg, #daffdf, #a5d1a6);
+    border: solid #000 0.01rem;
+    border-radius: 1.5%;
+    float: left;
+    margin: 0 0.3rem;
+    padding: 0.2rem;
+    width: 300px;
+}
+
+.portrait .face {
+    margin: 10px 50px;
+}
+
+.portrait .name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
